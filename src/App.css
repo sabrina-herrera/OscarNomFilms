@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #BA9F5E
+}
+
+:root {
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0px;
+  /*color-scheme: light dark;
+  color: #909B68;*/
+  background-color: #F8EBB8;
+
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  height: 100dvh;
+}
+
+.background {
+  background-color: #262522;
+  height: 98dvh;
+  width: 98dvw;
+  margin: 1dvh auto;
+  border-radius: 76px;
+}
+
+#oscar {
+  width: auto;
+  height: 10%;
+  margin: 2% auto 0%;
+}
+
+#panel {
+  display: inline-block;
+  width: 87.2%;
+  height: 77%;
+  background-color: #FAF9EE;
+  margin: 6% auto;
+  border-radius: 49px;
+}
+
+/*@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}*/
