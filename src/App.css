@@ -30,12 +30,11 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  height: 100dvh;
 }
 
 .background {
   background-color: #262522;
-  height: 98dvh;
+  min-height: 98dvh;
   width: 98dvw;
   margin: 1dvh auto;
   border-radius: 76px;
@@ -43,17 +42,24 @@ body {
 
 #oscar {
   width: auto;
-  height: 10%;
+  height: 6rem;
   margin: 2% auto 0%;
 }
 
-#panel {
+#films {
   display: inline-block;
   width: 87.2%;
-  height: 77%;
   background-color: #FAF9EE;
   margin: 6% auto;
   border-radius: 49px;
+}
+
+.winner {
+  font-weight: bold;
+}
+
+.poster {
+  height: 45px;
 }
 
 /*@media (prefers-color-scheme: light) {

@@ -1,9 +1,10 @@
 const films = [
     {
         id: 1,
+        poster: "src/assets/OPPENHEIMER.jpg",
         title: "Oppenheimer",
         director: "Christopher Nolan",
-        staring: "Cillian Murphy, Emily Blunt, Matt Damon",
+        starring: "Cillian Murphy, Emily Blunt, Matt Damon",
         synopsis: "During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb. Their work comes to fruition on July 16, 1945, as they witness the world's first nuclear explosion, forever changing the course of history.",
         awards: [
             {
@@ -88,9 +89,10 @@ const films = [
     },
     {
         id: 2,
+        poster: "src/assets/POORTHINGS.JPEG",
         title: "Poor Things",
         director: "Yorgos Lanthimos",
-        staring: "Emma Stone, Willem Dafoe, Mark Ruffalo",
+        starring: "Emma Stone, Willem Dafoe, Mark Ruffalo",
         synopsis: "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
         awards: [
             {
@@ -163,9 +165,10 @@ const films = [
     },
     {
         id: 3,
+        poster: "src/assets/KillersoftheFlowerMoon.jpg",
         title: "Killers of the Flower Moon",
         director: "Martin Scorsese",
-        staring: "Leonardo DiCaprio, Lily Gladstone, Robert De Niro",
+        starring: "Leonardo DiCaprio, Lily Gladstone, Robert De Niro",
         synopsis: "Real love crosses paths with unspeakable betrayal as Mollie Burkhart, a member of the Osage Nation, tries to save her community from a spree of murders fueled by oil and greed.",
         awards: [
             {
@@ -232,9 +235,10 @@ const films = [
     },
     {
         id: 4,
+        poster: "src/assets/Barbie.jpg",
         title: "Barbie",
         director: "Greta Gerwig",
-        staring: "Margot Robbie, Ryan Gosling, America Ferrera",
+        starring: "Margot Robbie, Ryan Gosling, America Ferrera",
         synopsis: "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
         awards: [
             {
@@ -289,9 +293,10 @@ const films = [
     },
     {
         id: 5,
+        poster: "src/assets/Maestro.jpg",
         title: "Maestro",
         director: "Bradley Cooper ",
-        staring: "Bradley Cooper, Carey Mulligan, Matt Bomer",
+        starring: "Bradley Cooper, Carey Mulligan, Matt Bomer",
         synopsis: "On the verge of securing a golden opportunity, American conductor Leonard Bernstein begins a tumultuous relationship with actress Felicia Montealegre, upturning their lives.",
         awards: [
             {
@@ -340,9 +345,10 @@ const films = [
     },
     {
         id: 6,
+        poster: "src/assets/AmericanFiction.jpg",
         title: "American Fiction",
         director: "Cord Jefferson",
-        staring: "Jeffrey Wright, Tracee Ellis Ross, John Ortiz",
+        starring: "Jeffrey Wright, Tracee Ellis Ross, John Ortiz",
         synopsis: "Monk is a frustrated novelist who's fed up with the establishment that profits from Black entertainment that relies on tired and offensive tropes. To prove his point, he uses a pen name to write an outlandish Black book of his own, a book that propels him to the heart of hypocrisy and the madness he claims to disdain.",
         awards: [
             {
@@ -379,9 +385,10 @@ const films = [
     },
     {
         id: 7,
+        poster: "src/assets/AnatomyofaFall.jpg",
         title: "Anatomy of a Fall",
         director: "Justine Triet",
-        staring: "Sandra Hüller, Swann Arlaud, Milo Machado Graner",
+        starring: "Sandra Hüller, Swann Arlaud, Milo Machado Graner",
         synopsis: "For the past year, Sandra, her husband Samuel, and their eleven-year-old son Daniel have lived a secluded life in a remote town in the French Alps. When Samuel is found dead in the snow below their chalet, the police question whether he was murdered or committed suicide. Samuel's suspicious death is presumed murder, and Sandra becomes the main suspect. What follows is not just an investigation into the circumstances of Samuel's death but an unsettling psychological journey into the depths of Sandra and Samuel's conflicted relationship.",
         awards: [
             {
@@ -418,9 +425,10 @@ const films = [
     },
     {
         id: 8,
+        poster: "src/assets/TheHoldovers.jpg",
         title: "The Holdovers",
         director: "Alexander Payne",
-        staring: "Paul Giamatti, Da'Vine Joy Randolph, Dominic Sessa",
+        starring: "Paul Giamatti, Da'Vine Joy Randolph, Dominic Sessa",
         synopsis: "A curmudgeonly instructor at a New England prep school remains on campus during Christmas break to babysit a handful of students with nowhere to go. He soon forms an unlikely bond with a brainy but damaged troublemaker, and with the school's head cook, a woman who just lost a son in the Vietnam War.",
         awards: [
             {
@@ -457,9 +465,10 @@ const films = [
     },
     {
         id: 9,
+        poster: "src/assets/TheZoneofInterest.jpg",
         title: "The Zone of Interest",
         director: "Jonathan Glazer",
-        staring: "Christian Friedel, Sandra Hüller, Medusa Knopf",
+        starring: "Christian Friedel, Sandra Hüller, Medusa Knopf",
         synopsis: "The commandant of Auschwitz, Rudolf Höss, and his wife Hedwig, strive to build a dream life for their family in a house and garden next to the camp.",
         awards: [
             {
@@ -496,9 +505,10 @@ const films = [
     },
     {
         id: 10,
+        poster: "src/assets/Napoleon.jpg",
         title: "Napoleon",
         director: "Ridley Scott",
-        staring: "Joaquin Phoenix, Vanessa Kirby, Ben Miles",
+        starring: "Joaquin Phoenix, Vanessa Kirby, Ben Miles",
         synopsis: "A look at the military commander's origins and his swift, ruthless climb to emperor, viewed through the prism of his addictive and often volatile relationship with his wife and one true love, Josephine.",
         awards: [
             {
@@ -523,9 +533,10 @@ const films = [
     },
     {
         id: 11,
+        poster: "src/assets/TheCreator.jpg",
         title: "The Creator",
         director: "Gareth Edwards",
-        staring: "John David Washington, Gemma Chan, Ken Watanabe",
+        starring: "John David Washington, Gemma Chan, Ken Watanabe",
         synopsis: "As a future war between the human race and artificial intelligence rages on, ex-special forces agent Joshua is recruited to hunt down and kill the Creator, the elusive architect of advanced AI. The Creator has developed a mysterious weapon that has the power to end the war and all of mankind. As Joshua and his team of elite operatives venture into enemy-occupied territory, they soon discover the world-ending weapon is actually an AI in the form of a young child.",
         awards: [
             {
@@ -544,9 +555,10 @@ const films = [
     },
     {
         id: 12,
+        poster: "src/assets/MISSIONIMPOSSIBLE.jpg",
         title: "Mission: Impossible - Dead Reckoning Part One",
         director: "Christopher McQuarrie",
-        staring: "Tom Cruise, Hayley Atwell, Ving Rhames",
+        starring: "Tom Cruise, Hayley Atwell, Ving Rhames",
         synopsis: "Ethan Hunt and the IMF team must track down a terrifying new weapon that threatens all of humanity if it falls into the wrong hands. With control of the future and the fate of the world at stake, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan is forced to consider that nothing can matter more than the mission -- not even the lives of those he cares about most.",
         awards: [
             {
@@ -565,9 +577,10 @@ const films = [
     },
     {
         id: 13,
+        poster: "src/assets/Nyad.jpg",
         title: "Nyad",
         director: "Elizabeth Chai Vasarhelyi, Jimmy Chin",
-        staring: "Annette Bening, Jodie Foster, Rhys Ifans",
+        starring: "Annette Bening, Jodie Foster, Rhys Ifans",
         synopsis: "A remarkable true story of tenacity, friendship and the triumph of the human spirit, NYAD recounts a riveting chapter in the life of world-class athlete Diana Nyad. Three decades after giving up marathon swimming in exchange for a prominent career as a sports journalist, at the age of 60, Diana (four-time Academy Award nominee Annette Bening) becomes obsessed with completing an epic swim that always eluded her: the 110 mile trek from Cuba to Florida, often referred to as the \"Mount Everest\" of swims. Determined to become the first person to finish the swim without a shark cage, Diana goes on a thrilling, four-year journey with her best friend and coach Bonnie Stoll (two-time Academy Award winner Jodie Foster) and a dedicated sailing team.",
         awards: [
             {
@@ -586,9 +599,10 @@ const films = [
     },
     {
         id: 14,
+        poster: "src/assets/PastLives.jpg",
         title: "Past Lives",
         director: "Celine Song",
-        staring: "Greta Lee, Teo Yoo, John Magaro",
+        starring: "Greta Lee, Teo Yoo, John Magaro",
         synopsis: "Nora and Hae Sung, two deeply connected childhood friends, are wrest apart after Nora's family emigrates from South Korea. Decades later, they are reunited for one fateful week as they confront destiny, love and the choices that make a life.",
         awards: [
             {
@@ -607,9 +621,10 @@ const films = [
     },
     {
         id: 15,
+        poster: "src/assets/SocietyoftheSnow.jpg",
         title: "Society of the Snow",
         director: "J. A. Bayona",
-        staring: "Enzo Vogrincic, Matías Recalt, Agustín Pardella",
+        starring: "Enzo Vogrincic, Matías Recalt, Agustín Pardella",
         synopsis: "In 1972, Uruguayan Air Force Flight 571, which had been chartered to fly a rugby team to Chile, crashed in the heart of the Andes. Only 29 of its 45 passengers survived the accident. Trapped in one of the most hostile and inaccessible environments on the planet, they have to resort to extreme measures to stay alive",
         awards: [
             {
@@ -628,9 +643,10 @@ const films = [
     },
     {
         id: 16,
+        poster: "src/assets/Rustin.jpg",
         title: "Rustin",
         director: "George C. Wolfe",
-        staring: "Colman Domingo, Chris Rock, Jeffrey Wright",
+        starring: "Colman Domingo, Chris Rock, Jeffrey Wright",
         synopsis: "Bayard Rustin, advisor to Martin Luther King Jr., dedicates his life to the quest for racial equality, human rights and worldwide democracy. However, as an openly gay Black man, he is all but erased from the civil rights movement he helped build.",
         awards: [
             {
@@ -643,9 +659,10 @@ const films = [
     },
     {
         id: 17,
+        poster: "src/assets/TheColorPurple.jpg",
         title: "The Color Purple",
         director: "Blitz Bazawule",
-        staring: "Taraji P. Henson, Danielle Brooks, Colman Domingo",
+        starring: "Taraji P. Henson, Danielle Brooks, Colman Domingo",
         synopsis: "Torn apart from her sister and her children, Celie faces many hardships in life, including an abusive husband. With support from a sultry singer named Shug Avery, as well as her stand-her-ground stepdaughter, Celie ultimately finds extraordinary strength in the unbreakable bonds of a new kind of sisterhood.",
         awards: [
             {
@@ -658,9 +675,10 @@ const films = [
     },
     {
         id: 18,
+        poster: "src/assets/TheBoyandtheHeron.jpg",
         title: "The Boy and the Heron",
         director: "Hayao Miyazaki",
-        staring: "Soma Santoki, Masaki Suda, Aimyon",
+        starring: "Soma Santoki, Masaki Suda, Aimyon",
         synopsis: "Mahito, a young 12-year-old boy, struggles to settle in a new town after his mother's death. However, when a talking heron informs Mahito that his mother is still alive, he enters an abandoned tower in search of her, which takes him to another world.",
         awards: [
             {
@@ -673,9 +691,10 @@ const films = [
     },
     {
         id: 19,
+        poster: "src/assets/MayDecember.jpg",
         title: "May December",
         director: "Todd Haynes",
-        staring: "Natalie Portman, Julianne Moore, Charles Melton",
+        starring: "Natalie Portman, Julianne Moore, Charles Melton",
         synopsis: "Twenty years after their notorious tabloid romance gripped the nation, Gracie Atherton-Yu and her husband Joe (twenty-three years her junior) brace themselves for their twins to graduate from high school. When Hollywood actress Elizabeth Berry comes to spend time with the family to better understand Gracie, who she will be playing in a film, family dynamics unravel under the pressure of the outside gaze. Joe, never having processed what happened in his youth, starts to confront the reality of life as an empty-nester at thirty-six. And as Elizabeth and Gracie study each other, the similarities and differences between the two women begin to ebb and flow. Set in picturesque and comfortable Savannah, Georgia, May December is an exploration of truth, storytelling, and the difficulties (or impossibility) of fully understanding another person.",
         awards: [
             {
@@ -688,9 +707,10 @@ const films = [
     },
     {
         id: 20,
+        poster: "src/assets/Elemental.jpg",
         title: "Elemental",
         director: "Peter Sohn",
-        staring: "Leah Lewis, Mamoudou Athie, Ronnie del Carmen",
+        starring: "Leah Lewis, Mamoudou Athie, Ronnie del Carmen",
         synopsis: "Disney and Pixar's \"Elemental\", an all-new, original feature film set in Element City, where fire-, water-, land- and air-residents live together. The story introduces Ember, a tough, quick-witted and fiery young woman, whose friendship with a fun, sappy, go-with-the-flow guy named Wade challenges her beliefs about the world they live in.",
         awards: [
             {
@@ -703,9 +723,10 @@ const films = [
     },
     {
         id: 21,
+        poster: "src/assets/Nimona.jpg",
         title: "Nimona",
         director: "Nick Bruno, Troy Quane",
-        staring: "Chloë Grace Moretz, Riz Ahmed, Eugene Lee Yang",
+        starring: "Chloë Grace Moretz, Riz Ahmed, Eugene Lee Yang",
         synopsis: "When Ballister Boldheart (Riz Ahmed), a knight in a futuristic medieval world, is framed for a crime he didn't commit, the only one who can help him prove his innocence is Nimona (Chloë Grace Moretz), a mischievous teen with a taste for mayhem -- who also happens to be a shapeshifting creature Ballister has been trained to destroy. But with the entire kingdom out to get him, Nimona's the best (or technically the only) sidekick Ballister can hope for. And as the lines between heroes, villains, and monsters start to blur, the two of them set out to wreak serious havoc -- for Ballister to clear his name once and for all, and for Nimona to... just wreak serious havoc.",
         awards: [
             {
@@ -718,9 +739,10 @@ const films = [
     },
     {
         id: 22,
+        poster: "src/assets/RobotDreams.jpg",
         title: "Robot Dreams",
         director: "Pablo Berger",
-        staring: "This is an animated film that contains no verbal dialogue.",
+        starring: "",
         synopsis: "DOG lives in Manhattan and he's tired of being alone. One day he decides to build himself a robot, a companion. Their friendship blossoms, until they become inseparable, to the rhythm of 80's NYC. One summer night, DOG, with great sadness, is forced to abandon ROBOT at the beach. Will they ever meet again?",
         awards: [
             {
@@ -733,9 +755,10 @@ const films = [
     },
     {
         id: 23,
+        poster: "src/assets/SPIDERMAN.jpg",
         title: "Spider-man: Across the Spider-verse",
         director: "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
-        staring: "Shameik Moore, Hailee Steinfeld, Brian Tyree Henry",
+        starring: "Shameik Moore, Hailee Steinfeld, Brian Tyree Henry",
         synopsis: "After reuniting with Gwen Stacy, Brooklyn's full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. However, when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders. He must soon redefine what it means to be a hero so he can save the people he loves most.",
         awards: [
             {
@@ -748,9 +771,10 @@ const films = [
     },
     {
         id: 24,
+        poster: "src/assets/ElConde.jpg",
         title: "El Conde",
         director: "Pablo Larraín",
-        staring: "Jaime Vadell, Gloria Münchmeyer, Alfredo Castro",
+        starring: "Jaime Vadell, Gloria Münchmeyer, Alfredo Castro",
         synopsis: "El Conde is a dark comedy/horror that imagines a parallel universe inspired by the recent history of Chile. The film portrays Augusto Pinochet, a symbol of world fascism, as a vampire who lives hidden in a ruined mansion in the cold southern tip of the continent. Feeding his appetite for evil to sustain his existence. After two hundred and fifty years of life, Pinochet has decided to stop drinking blood and abandon the privilege of eternal life. He can no longer bear that the world remembers him as a thief. Despite the disappointing and opportunistic nature of his family, he finds new inspiration to continue living a life of vital and counterrevolutionary passion through an unexpected relationship.",
         awards: [
             {
@@ -763,9 +787,10 @@ const films = [
     },
     {
         id: 25,
+        poster: "src/assets/BOBIWINE.jpeg",
         title: "Bobi Wine: The People's President",
         director: "Christopher Sharp, Moses Bwayo",
-        staring: "Bobi Win, Barbie Kyagulanyi, Robert Ssentamu",
+        starring: "Bobi Win, Barbie Kyagulanyi, Robert Ssentamu",
         synopsis: "This gripping documentary charts the inspiring activism of Bobi Wine, the pop star-turned-politician seeking to end Uganda's brutal dictatorship. Rising from the ghetto slums of Kampala to be one of the country's most beloved superstars, Bobi begins to use his music to call out corruption, then becomes an Independent Member of Parliament to defend the rights of his people. The country's institutions are controlled by President Museveni, an autocratic tyrant who has held power since 1986. Bobi and his wife Barbie choose to risk their careers, their family, and their lives to challenge him and bring democracy to their country. But the state is determined to silence not only them, but anyone who supports their cause.",
         awards: [
             {
@@ -778,9 +803,10 @@ const films = [
     },
     {
         id: 26,
+        poster: "src/assets/TheEternalMemory.jpg",
         title: "The Eternal Memory",
         director: "Maite Alberdi",
-        staring: "Augusto Góngora, Paulina Urrutia",
+        starring: "Augusto Góngora, Paulina Urrutia",
         synopsis: "Augusto and Paulina have been together and in love for 25 years. Eight years ago, he was diagnosed with Alzheimer’s disease, and his wife has since become his caretaker. As one of Chile's most prominent cultural commentators and television presenters, Augusto is no stranger to building an archive of memory, having been responsible for that herculean task following the Pinochet dictatorship and its systematic erasure of collective consciousness. Now he turns that work to his own life, trying to hold on to his identity with the help of his beloved. Day by day, the couple face this challenge head-on, adapting to the disruptions brought on by the taxing disease while relying on the tender affection and sense of humor shared between them that remains intact.",
         awards: [
             {
@@ -793,9 +819,10 @@ const films = [
     },
     {
         id: 27,
+        poster: "src/assets/FourDaughters.jpg",
         title: "Four Daughters",
         director: "Kaouther Ben Hania",
-        staring: "Hend Sabry, Olfa Hamrouni, Eya Chikahoui",
+        starring: "Hend Sabry, Olfa Hamrouni, Eya Chikahoui",
         synopsis: "This riveting exploration of rebellion, memory, and sisterhood reconstructs the story of Olfa Hamrouni and her four daughters, unpacking a complex family history through intimate interviews and performance to examine how the Tunisian woman's two eldest were radicalized by Islamic extremists. Casting professional actresses as the missing daughters, along with acclaimed Egyptian-Tunisian actress Hend Sabri as Olfa, award-winning director Kaouther Ben Hania (The Man Who Sold His Skin) restages pivotal moments in the family's life. These scenes are interwoven with confessions and reflections from Olfa and her younger daughters, offering the women agency to tell their own story and capturing moments of joy, loss, violence, and heartache. Winner of four prizes including L'Oeil d'Or (Best Documentary) when it screened in competition at the Cannes Film Festival, Four Daughters is a compelling portrait of five women and a unique and ambitious work of nonfiction cinema that explores the nature of memory, the weight of inherited trauma, and the ties that bind mothers and daughters.",
         awards: [
             {
@@ -808,9 +835,10 @@ const films = [
     },
     {
         id: 28,
+        poster: "src/assets/ToKillaTiger.jpg",
         title: "To Kill a Tiger",
         director: "Nisha Pahuja",
-        staring: "",
+        starring: "",
         synopsis: "In a small Indian village, Ranjit wakes up to find that his 13-year-old daughter has not returned from a family wedding. A few hours later, she's found stumbling home. After being abducted into the woods, she was sexually assaulted by three men. Ranjit goes to the police, and the men are arrested. But Ranjit's relief is short-lived, as the villagers and their leaders launch a sustained campaign to force the family to drop the charges. A cinematic documentary, To Kill a Tiger follows Ranjit's uphill battle to find justice for his child. In India, where a rape is reported every 20 minutes and conviction rates are less than 30 percent, Ranjit's decision to support his daughter is virtually unheard of. With tremendous access, we witness the emotional journey of an ordinary man facing extraordinary circumstances. A father whose love for his daughter forces a social reckoning that will reverberate for years to come.",
         awards: [
             {
@@ -823,9 +851,10 @@ const films = [
     },
     {
         id: 29,
+        poster: "src/assets/20DaysinMariupol.jpg",
         title: "20 Days in Mariupol",
         director: "Mstyslav Chernov",
-        staring: "",
+        starring: "",
         synopsis: "The film documents the twenty days Chernov spent with his colleagues during the battle of Mariupol in 2022. As the Russian invasion begins, the team of Ukrainian journalists become trapped in the besieged city and struggle to continue their work documenting the war.",
         awards: [
             {
@@ -838,9 +867,10 @@ const films = [
     },
     {
         id: 30,
+        poster: "src/assets/THEABCS.jpg",
         title: "The ABCs of Book Banning",
         director: "Trish Adlesic, Nazenet Habtezghi, Sheila Nevins",
-        staring: "",
+        starring: "",
         synopsis: "The film features people discussing the mass banning of books relating to LGBT topics and issues of race, specifically in Florida.",
         awards: [
             {
@@ -853,9 +883,10 @@ const films = [
     },
     {
         id: 31,
+        poster: "src/assets/TheBarberofLittleRock.jpg",
         title: "The Barber of Little Rock",
         director: "John Hoffman, Christine Turner",
-        staring: "",
+        starring: "",
         synopsis: "Barber Arlo Washington forms a nonprofit community bank, with a visionary approach to a just economy that could reshape the future of banking. The People Trust fosters economic progress for underserved residents in Little Rock, Ark.",
         awards: [
             {
@@ -868,9 +899,10 @@ const films = [
     },
     {
         id: 32,
+        poster: "src/assets/IslandinBetween.jpg",
         title: "Island in Between",
         director: "S. Leo Chiang",
-        staring: "",
+        starring: "",
         synopsis: "S. Leo Chiang reflects on his relationship with Taiwan, the United States and China from the islands of Kinmen, just a few miles from mainland China.",
         awards: [
             {
@@ -883,9 +915,10 @@ const films = [
     },
     {
         id: 33,
+        poster: "src/assets/TheLastRepairShop.jpg",
         title: "The Last Repair Shop",
         director: "Ben Proudfoot, Kris Bowers",
-        staring: "Dana Atkinson, Paty Moreno, Duane Michaels",
+        starring: "Dana Atkinson, Paty Moreno, Duane Michaels",
         synopsis: "In Los Angeles, a few devoted craftspeople keep over 80,000 student instruments in good repair.",
         awards: [
             {
@@ -898,9 +931,10 @@ const films = [
     },
     {
         id: 34,
+        poster: "src/assets/NAINAI.jpg",
         title: "Nǎi Nai & Wài Pó",
         director: "Sean Wang",
-        staring: "Yi Yan Fuei, Zhang Li Hua",
+        starring: "Yi Yan Fuei, Zhang Li Hua",
         synopsis: "A personal love letter from director Sean Wang to his Nai Nai and Wài Pó, a grandma super team that dances, stretches, and farts their sorrows away.",
         awards: [
             {
@@ -913,9 +947,10 @@ const films = [
     },
     {
         id: 35,
+        poster: "src/assets/IoCapitano.jpg",
         title: "Io Capitano",
         director: "Matteo Garrone",
-        staring: "Seydou Sarr, Moustapha Fall",
+        starring: "Seydou Sarr, Moustapha Fall",
         synopsis: "Two Senegalese teenagers, Seydou and Moussa, travel from Dakar to Europe in the hope of becoming pop stars in Europe, finding danger, heartbreak and unexpected joy along the way.",
         awards: [
             {
@@ -928,9 +963,10 @@ const films = [
     },
     {
         id: 36,
+        poster: "src/assets/PerfectDays.jpg",
         title: "Perfect Days",
         director: "Wim Wenders",
-        staring: "Kōji Yakusho, Tokio Emoto, Arisa Nakano",
+        starring: "Kōji Yakusho, Tokio Emoto, Arisa Nakano",
         synopsis: "Hirayama seems utterly content with his simple life as a cleaner of toilets in Tokyo. Outside of his very structured everyday routine he enjoys his passion for music and for books. And he loves trees and takes photos of them. A series of unexpected encounters gradually reveal more of his past. A deeply moving and poetic reflection on finding beauty in the everyday world around us.",
         awards: [
             {
@@ -943,9 +979,10 @@ const films = [
     },
     {
         id: 37,
+        poster: "src/assets/TheTeachersLounge.jpg",
         title: "The Teachers' Lounge",
         director: "Ilker Çatak",
-        staring: "Leonie Benesch, Michael Klammer, Rafael Stachowiak",
+        starring: "Leonie Benesch, Michael Klammer, Rafael Stachowiak",
         synopsis: "Carla Nowak, a dedicated sports and math teacher, starts her first job at a high school. She stands out among the new staff because of her idealism. When a series of thefts occur at the school and one of her students is suspected, she decides to get to the bottom of the matter on her own. Carla tries to mediate between outraged parents, opinionated colleagues and aggressive students, but is relentlessly confronted with the structures of the school system. The more desperately she tries to do everything right, the more the young teacher threatens to break.",
         awards: [
             {
@@ -958,9 +995,10 @@ const films = [
     },
     {
         id: 38,
+        poster: "src/assets/Golda.jpg",
         title: "Golda",
         director: "Guy Nattiv",
-        staring: "Helen Mirren, Camille Cottin, Liev Schreiber",
+        starring: "Helen Mirren, Camille Cottin, Liev Schreiber",
         synopsis: "Golda is a ticking-clock thriller set during the tense 19 days of the Yom Kippur War in 1973. Israeli Prime Minister Golda Meir (Helen Mirren), faced with the potential of Israel's complete destruction, must navigate overwhelming odds, a skeptical cabinet, and a complex relationship with US Secretary of State Henry Kissinger (Liev Schreiber), with millions of lives in the balance. Her tough leadership and compassion would ultimately decide the fate of her nation and leave her with a controversial legacy around the world.",
         awards: [
             {
@@ -973,9 +1011,10 @@ const films = [
     },
     {
         id: 39,
+        poster: "src/assets/INDIANAJONES.jpg",
         title: "Indiana Jones and the Dial of Destiny",
         director: "James Mangold",
-        staring: "Harrison Ford, Phoebe Waller-Bridge, Antonio Banderas",
+        starring: "Harrison Ford, Phoebe Waller-Bridge, Antonio Banderas",
         synopsis: "Daredevil archaeologist Indiana Jones races against time to retrieve a legendary dial that can change the course of history. Accompanied by his goddaughter, he soon finds himself squaring off against Jürgen Voller, a former Nazi who works for NASA.",
         awards: [
             {
@@ -988,9 +1027,10 @@ const films = [
     },
     {
         id: 40,
+        poster: "src/assets/FlaminHot.jpg",
         title: "Flamin' Hot",
         director: "Eva Longoria",
-        staring: "Jesse Garcia, Annie Gonzalez, Dennis Haysbert",
+        starring: "Jesse Garcia, Annie Gonzalez, Dennis Haysbert",
         synopsis: "Richard Montanez, the son of a Mexican immigrant, was a janitor at Frito Lay when he came up with the idea for Flamin' Hot Cheetos. His creation, inspired by the flavours of his community, revitalises Frito-Lay and disrupts the food industry.",
         awards: [
             {
@@ -1003,9 +1043,10 @@ const films = [
     },
     {
         id: 41,
+        poster: "src/assets/AmericanSymphony.jpg",
         title: "American Symphony",
         director: "Matthew Heineman",
-        staring: "Jon Batiste, Suleika Jaouad",
+        starring: "Jon Batiste, Suleika Jaouad",
         synopsis: "Early in 2022, multi-instrumentalist Jon Batiste finds himself the most celebrated artist of the year with eleven Grammy nominations including Album of the Year. In the midst of that triumph, Jon is immersed in his most ambitious challenge yet: composing American Symphony, an original symphony that reimagines the traditions of the classical form, bringing together an expansive and inclusive diaspora of music for a performance at storied Carnegie Hall. This extraordinary trajectory is upended when Batiste's life partner -- best-selling author Suleika Jaouad -- learns that her long-dormant cancer has returned. In the intimate AMERICAN SYMPHONY, Academy Award-nominated and Emmy Award-winning director Matthew Heineman (Cartel Land, The First Wave, Retrograde) delivers a portrait of two inimitable artists at a crossroads and a profound meditation on art, love, and the creative process.",
         awards: [
             {
@@ -1018,9 +1059,10 @@ const films = [
     },
     {
         id: 42,
+        poster: "src/assets/LettertoaPig.jpg",
         title: "Letter to a Pig",
         director: "Tal Kantor",
-        staring: "",
+        starring: "",
         synopsis: "On 'Memorial Day', a Holocaust survivor reads a letter he wrote to the pig who saved his life to a classroom full of teenagers.  Whilst listening to his testimony, a young schoolgirl sinks into a twisted dream where she confronts questions of collective trauma, memory and identity.",
         awards: [
             {
@@ -1033,9 +1075,10 @@ const films = [
     },
     {
         id: 43,
+        poster: "src/assets/NinteyFiveSenses.jpg",
         title: "Nintey-Five Senses",
         director: "Jared Hess, Jerusha Hess",
-        staring: "Tim Blake Nelson",
+        starring: "Tim Blake Nelson",
         synopsis: "An ode to the body's five senses delivered by a man with little time left to enjoy them.",
         awards: [
             {
@@ -1048,9 +1091,10 @@ const films = [
     },
     {
         id: 44,
+        poster: "src/assets/OURUNIFORM.jpg",
         title: "Our Uniform",
         director: "Yegane Moghaddam",
-        staring: "",
+        starring: "",
         synopsis: "An Iranian girl unfolds her school memories on the wrinkles and fabrics of her old uniform.",
         awards: [
             {
@@ -1063,9 +1107,10 @@ const films = [
     },
     {
         id: 45,
+        poster: "src/assets/Pachyderme.jpg",
         title: "Pachyderme",
         director: "Stephanie Clement",
-        staring: "Christa Théret",
+        starring: "Christa Théret",
         synopsis: "Louise stays with her grandparents in the countryside for a few days during the summer holidays.",
         awards: [
             {
@@ -1078,9 +1123,10 @@ const films = [
     },
     {
         id: 46,
+        poster: "src/assets/WARISOVER.jpg",
         title: "War is Over! Inspired by the Music of John & Yoko",
         director: "Dave Mullins",
-        staring: "",
+        starring: "",
         synopsis: "In an alternate WWI reality, a heroic pigeon delivers messages across the battlefield, from one side to the other. The messages are exchanged by two soldiers on opposite sides, who, unaware of who their opponent is, are playing a game of chess against each other. As the fighting and the game both escalate, they continue to exchange their chess moves, delivered by the brave pigeon. Whoever wins the game, what's certain is that there are no winners in war.",
         awards: [
             {
@@ -1093,9 +1139,10 @@ const films = [
     },
     {
         id: 47,
+        poster: "src/assets/TheAfter.jpg",
         title: "The After",
         director: "Misan Harriman",
-        staring: "David Oyelowo, Jessica Plummer, Sule Rumi",
+        starring: "David Oyelowo, Jessica Plummer, Sule Rumi",
         synopsis: "After losing a family member to a violent crime, a shattered ride-share driver picks up a passenger who forces him to confront his grief.",
         awards: [
             {
@@ -1108,9 +1155,10 @@ const films = [
     },
     {
         id: 48,
+        poster: "src/assets/Invincible.jpg",
         title: "Invincible",
         director: "Vincent René-Lortie",
-        staring: "Léokim Beaumier-Lépine, Isabelle Blais, Ralph Prosper",
+        starring: "Léokim Beaumier-Lépine, Isabelle Blais, Ralph Prosper",
         synopsis: "Inspired by a true story, the thirty-minute short stars Léokim Beaumier-Lépine as Marc-André Bernier, a troubled young man who has been incarcerated in a youth detention centre; after spending a weekend with his family on a furlough, he is willing to go to any lengths necessary to avoid having to return to the facility.",
         awards: [
             {
@@ -1123,9 +1171,10 @@ const films = [
     },
     {
         id: 49,
+        poster: "src/assets/KnightofFortune.jpg",
         title: "Knight of Fortune",
         director: "Lasse Lyskjær Noer",
-        staring: "Leif Andrée, Jens Jørn Spottag, Jesper Lohmann",
+        starring: "Leif Andrée, Jens Jørn Spottag, Jesper Lohmann",
         synopsis: "Karl arrives at a chapel to say goodbye to his recently deceased wife, but he cannot bring himself to open the casket and acknowledge his loss.",
         awards: [
             {
@@ -1138,9 +1187,10 @@ const films = [
     },
     {
         id: 50,
+        poster: "src/assets/RedWhiteandBlue.jpg",
         title: "Red, White, and Blue",
         director: "Nazrin Choudhury",
-        staring: "Brittany Snow, Juliet Donnefield, Redding Munsel",
+        starring: "Brittany Snow, Juliet Donnefield, Redding Munsel",
         synopsis: "Rachel (Brittany Snow) is a single parent living paycheck to paycheck. When an unexpected pregnancy threatens to unravel her already precarious position, she's forced to cross state lines in search of an abortion. As Rachel contemplates the series of events that necessitated this journey and the obstacles placed in her path, we learn a heartbreaking truth that means her life will never be the same again.",
         awards: [
             {
@@ -1153,9 +1203,10 @@ const films = [
     },
     {
         id: 51,
+        poster: "src/assets/HENRYSUGAR.jpg",
         title: "The Wonderful Story of Henry Sugar",
         director: "Wes Anderson",
-        staring: "Ralph Fiennes, Benedict Cumberbatch, Dev Patel",
+        starring: "Ralph Fiennes, Benedict Cumberbatch, Dev Patel",
         synopsis: "The Wonderful Story of Henry Sugar: A rich man learns about a guru who can see without using his eyes. He sets out to master the skill in order to cheat at gambling. Extremely faithfully adapted from Roald Dahl’s long short story.",
         awards: [
             {
@@ -1168,9 +1219,10 @@ const films = [
     },
     {
         id: 52,
+        poster: "src/assets/GUARDIANS.jpg",
         title: "Guardians of the Galaxy Vol. 3",
         director: "",
-        staring: "",
+        starring: "",
         synopsis: "In Marvel Studios 'Guardians of the Galaxy Vol. 3' our beloved band of misfits are looking a bit different these days. Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
         awards: [
             {
@@ -1183,9 +1235,10 @@ const films = [
     },
     {
         id: 53,
+        poster: "src/assets/GODZILLA.jpg",
         title: "Godzilla Minus One",
         director: "Takashi Yamazaki",
-        staring: "Ryunosuke Kamiki, Minami Hamabe, Yuki Yamada",
+        starring: "Ryunosuke Kamiki, Minami Hamabe, Yuki Yamada",
         synopsis: "Japan is already devastated by the war when a new crisis emerges in the form of a giant monster",
         awards: [
             {
