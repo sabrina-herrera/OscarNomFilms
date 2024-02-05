@@ -1,8 +1,9 @@
 function Awards({ award }) {
     return (
         <>
-            <p className={award.winner ? "winner" : "loser"}>{award.awardName}</p>
-            <p className={award.winner ? "winner" : "loser"}>{award.awardedTo}</p>
+            <br></br>
+            <h5 className={award.winner ? "winner" : "loser"}>{award.awardName}</h5>
+            <h6 className={award.winner ? "winner" : "loser"}>{award.awardedTo}</h6>
         </>
     )
 }

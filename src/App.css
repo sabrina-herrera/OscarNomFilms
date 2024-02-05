@@ -2,17 +2,96 @@
   box-sizing: border-box;
 }
 
+/*TEXT STYLING*/
+
 h1 {
   display: inline-block;
-  font-size: 3.2em;
+  font-size: 2em;
   line-height: 1.1;
   color: #BA9F5E
 }
 
+h2 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+h3 {
+  color: #BA9F5E;
+  margin: 0;
+}
+
+h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+}
+
+h5, h6 {
+  line-height: 2rem;
+  font-weight: 300;
+}
+
+
+h6 {
+  font-style: italic;
+}
+
+.winner {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+label {
+  color: #BA9F5E;
+  margin: 0;
+}
+
+#showwinner {
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 753px) {
+  h1 {
+    font-size: 4.5rem;
+    padding: 0 10px;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h3, label {
+    font-size: 2rem;
+  }
+
+  #showwinner {
+    scale: 1.25;
+  }
+
+  p, h4, h5, h6  {
+    font-size: 1.25rem;
+  }
+
+
+}
+
+/* FRAME STYLING */
+
 :root {
   font-family: 'Alumni Sans Pinstripe', sans-serif;
   line-height: 1.5;
-  font-weight: 400;
   margin: 0px;
   /*color-scheme: light dark;
   color: #909B68;*/
@@ -34,43 +113,146 @@ body {
 
 .background {
   background-color: #262522;
-  min-height: 98dvh;
-  width: 98dvw;
-  margin: 1dvh auto;
+  width: 96dvw;
+  margin: 20px auto;
   border-radius: 76px;
+  border: 1px solid #262522;
+  max-width: 800px;
 }
 
-#oscar {
-  width: auto;
-  height: 6rem;
-  margin: 2% auto 0%;
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 415px;
+  margin: 0 auto;
+  padding: 35px 45px 10px;
 }
+
+
+.oscar {
+  width: auto;
+  height: 83px;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 0px auto;
+}
+
+@media screen and (min-width: 753px) {
+  .hero {
+    max-width: 775px;
+  }
+
+  .oscar {
+    width: auto;
+    height: 100px;
+  }
+
+  .notes {
+    justify-content: space-between;
+    width: auto;
+    margin: 0px 50px;
+    align-self: center;
+  }
+
+  .spacer {
+    flex-grow: 1;
+  }
+
+}
+
+/* FILM STLYING */
 
 #films {
-  display: inline-block;
-  width: 87.2%;
   background-color: #FAF9EE;
-  margin: 6% auto;
+  margin: 10px 25px 20px;
   border-radius: 49px;
 }
 
-.winner {
-  font-weight: bold;
+.filmhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 30px;
+}
+
+button {
+  background-color: #FAF9EE;
+  cursor: pointer;
+  border: none;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size: 3rem;
+  width: 25px;
+}
+
+.spacer {
+  width: 25px;
+}
+
+hr {
+  margin: 0px 30px;
+  border-top: 1px solid #262522;
+  border-bottom: none;
+  height: 3px;
 }
 
 .poster {
-  height: 45px;
+  height: 150px;
+  margin: 30px auto 0px;
 }
 
-/*@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.filmdetails {
+  margin: 0px 20px 30px;
+  text-align: left;
+}
+
+#id53 {
+  opacity: 0;
+} 
+
+@media screen and (min-width: 753px) {
+  .poster {
+    height: 220px;
   }
-  a:hover {
-    color: #747bff;
+
+  .spacer {
+    display: none;
   }
+
+  .filmimagehead {
+    display: flex;
+    margin: 30px 50px;
+  }
+
+  .filmhead {
+    flex-grow: 1;
+    margin: 0;
+  }
+
+  h2 {
+    flex-grow: 1;
+    padding: 0 10px;
+  }
+
+  hr {
+    margin: 0px 50px;
+  }
+
   button {
-    background-color: #f9f9f9;
+    font-size: 4.5rem;
+    width: auto;
+    padding: 0px;
   }
-}*/
+
+  .filmdetails {
+    margin: 0px 50px 40px;
+    text-align: left;
+  }
+
+}

@@ -7,20 +7,28 @@ function Film({ film }) {
     return (
         <>
         <div className={isOpen ? "open" : "closed"}>
-            <h2>{film.title}</h2>
-            <img src={film.poster} className="poster" ></img>
-            <button onClick={() => setOpen(!isOpen)}>{isOpen ? "-" : "+"}</button>
+            <div className="filmimagehead">
+                <img src={film.poster} className="poster" ></img>
+                <div className="filmhead">
+                    <div className="spacer"></div>
+                    <h2>{film.title}</h2>
+                    <button onClick={() => setOpen(!isOpen)}>{isOpen ? "-" : "+"}</button>
+                </div>
+            </div>
             {isOpen && 
             <>
-            <p><span className="bold">Director:</span> {film.director}</p>
-            {film.starring && (<p><span className="bold">Starring:</span> {film.starring}</p>)}
-            <p><span className="bold">Synopsis:</span>{film.synopsis}</p>
-            <p><span className="bold">Award Nominations:</span>{film.awards.map((award) => (
-                < Awards key={award.id} award={award} />
-            ))}</p>
-            
+                <div className="filmdetails">
+                    <p><span className="bold">Director: </span> {film.director}</p>
+                    {film.starring && (<p><span className="bold">Starring: </span> {film.starring}</p>)}
+                    <p><span className="bold">Synopsis: </span>{film.synopsis}</p>
+                    <h4><span className="bold">Award Nominations:</span></h4>
+                    {film.awards.map((award) => (
+                        < Awards key={award.id} award={award} />
+                    ))}
+                </div>
             </>
             }
+            <hr id={"id" + film.id}></hr>
         </div>
         
         </>
