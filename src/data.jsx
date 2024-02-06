@@ -1,7 +1,7 @@
 const films = [
     {
         id: 1,
-        poster: "/public/OPPENHEIMER.jpg",
+        poster: "/OPPENHEIMER.jpg",
         title: "Oppenheimer",
         director: "Christopher Nolan",
         starring: "Cillian Murphy, Emily Blunt, Matt Damon",
@@ -89,7 +89,7 @@ const films = [
     },
     {
         id: 2,
-        poster: "/public/POORTHINGS.JPEG",
+        poster: "/POORTHINGS.JPEG",
         title: "Poor Things",
         director: "Yorgos Lanthimos",
         starring: "Emma Stone, Willem Dafoe, Mark Ruffalo",
@@ -165,7 +165,7 @@ const films = [
     },
     {
         id: 3,
-        poster: "/public/KillersoftheFlowerMoon.jpg",
+        poster: "/KillersoftheFlowerMoon.jpg",
         title: "Killers of the Flower Moon",
         director: "Martin Scorsese",
         starring: "Leonardo DiCaprio, Lily Gladstone, Robert De Niro",
@@ -235,7 +235,7 @@ const films = [
     },
     {
         id: 4,
-        poster: "/public/Barbie.jpg",
+        poster: "/Barbie.jpg",
         title: "Barbie",
         director: "Greta Gerwig",
         starring: "Margot Robbie, Ryan Gosling, America Ferrera",
@@ -293,7 +293,7 @@ const films = [
     },
     {
         id: 5,
-        poster: "/public/Maestro.jpg",
+        poster: "/Maestro.jpg",
         title: "Maestro",
         director: "Bradley Cooper ",
         starring: "Bradley Cooper, Carey Mulligan, Matt Bomer",
@@ -345,7 +345,7 @@ const films = [
     },
     {
         id: 6,
-        poster: "/public/AmericanFiction.jpg",
+        poster: "/AmericanFiction.jpg",
         title: "American Fiction",
         director: "Cord Jefferson",
         starring: "Jeffrey Wright, Tracee Ellis Ross, John Ortiz",
@@ -385,7 +385,7 @@ const films = [
     },
     {
         id: 7,
-        poster: "/public/AnatomyofaFall.jpg",
+        poster: "/AnatomyofaFall.jpg",
         title: "Anatomy of a Fall",
         director: "Justine Triet",
         starring: "Sandra Hüller, Swann Arlaud, Milo Machado Graner",
@@ -425,7 +425,7 @@ const films = [
     },
     {
         id: 8,
-        poster: "/public/TheHoldovers.jpg",
+        poster: "/TheHoldovers.jpg",
         title: "The Holdovers",
         director: "Alexander Payne",
         starring: "Paul Giamatti, Da'Vine Joy Randolph, Dominic Sessa",
@@ -465,7 +465,7 @@ const films = [
     },
     {
         id: 9,
-        poster: "/public/TheZoneofInterest.jpg",
+        poster: "/TheZoneofInterest.jpg",
         title: "The Zone of Interest",
         director: "Jonathan Glazer",
         starring: "Christian Friedel, Sandra Hüller, Medusa Knopf",
@@ -505,7 +505,7 @@ const films = [
     },
     {
         id: 10,
-        poster: "/public/Napoleon.jpg",
+        poster: "/Napoleon.jpg",
         title: "Napoleon",
         director: "Ridley Scott",
         starring: "Joaquin Phoenix, Vanessa Kirby, Ben Miles",
@@ -533,7 +533,7 @@ const films = [
     },
     {
         id: 11,
-        poster: "/public/TheCreator.jpg",
+        poster: "/TheCreator.jpg",
         title: "The Creator",
         director: "Gareth Edwards",
         starring: "John David Washington, Gemma Chan, Ken Watanabe",
@@ -555,7 +555,7 @@ const films = [
     },
     {
         id: 12,
-        poster: "/public/MISSIONIMPOSSIBLE.jpg",
+        poster: "/MISSIONIMPOSSIBLE.jpg",
         title: "Mission: Impossible - Dead Reckoning Part One",
         director: "Christopher McQuarrie",
         starring: "Tom Cruise, Hayley Atwell, Ving Rhames",
@@ -577,7 +577,7 @@ const films = [
     },
     {
         id: 13,
-        poster: "/public/Nyad.jpg",
+        poster: "/Nyad.jpg",
         title: "Nyad",
         director: "Elizabeth Chai Vasarhelyi, Jimmy Chin",
         starring: "Annette Bening, Jodie Foster, Rhys Ifans",
@@ -599,7 +599,7 @@ const films = [
     },
     {
         id: 14,
-        poster: "/public/PastLives.jpg",
+        poster: "/PastLives.jpg",
         title: "Past Lives",
         director: "Celine Song",
         starring: "Greta Lee, Teo Yoo, John Magaro",
@@ -621,7 +621,7 @@ const films = [
     },
     {
         id: 15,
-        poster: "/public/SocietyoftheSnow.jpg",
+        poster: "/SocietyoftheSnow.jpg",
         title: "Society of the Snow",
         director: "J. A. Bayona",
         starring: "Enzo Vogrincic, Matías Recalt, Agustín Pardella",
@@ -643,7 +643,7 @@ const films = [
     },
     {
         id: 16,
-        poster: "/public/Rustin.jpg",
+        poster: "/Rustin.jpg",
         title: "Rustin",
         director: "George C. Wolfe",
         starring: "Colman Domingo, Chris Rock, Jeffrey Wright",
@@ -659,7 +659,7 @@ const films = [
     },
     {
         id: 17,
-        poster: "/public/TheColorPurple.jpg",
+        poster: "/TheColorPurple.jpg",
         title: "The Color Purple",
         director: "Blitz Bazawule",
         starring: "Taraji P. Henson, Danielle Brooks, Colman Domingo",
@@ -675,7 +675,7 @@ const films = [
     },
     {
         id: 18,
-        poster: "/public/TheBoyandtheHeron.jpg",
+        poster: "/TheBoyandtheHeron.jpg",
         title: "The Boy and the Heron",
         director: "Hayao Miyazaki",
         starring: "Soma Santoki, Masaki Suda, Aimyon",
@@ -691,7 +691,7 @@ const films = [
     },
     {
         id: 19,
-        poster: "/public/MayDecember.jpg",
+        poster: "/MayDecember.jpg",
         title: "May December",
         director: "Todd Haynes",
         starring: "Natalie Portman, Julianne Moore, Charles Melton",
@@ -707,7 +707,7 @@ const films = [
     },
     {
         id: 20,
-        poster: "/public/Elemental.jpg",
+        poster: "/Elemental.jpg",
         title: "Elemental",
         director: "Peter Sohn",
         starring: "Leah Lewis, Mamoudou Athie, Ronnie del Carmen",
@@ -723,7 +723,7 @@ const films = [
     },
     {
         id: 21,
-        poster: "/public/Nimona.jpg",
+        poster: "/Nimona.jpg",
         title: "Nimona",
         director: "Nick Bruno, Troy Quane",
         starring: "Chloë Grace Moretz, Riz Ahmed, Eugene Lee Yang",
@@ -739,7 +739,7 @@ const films = [
     },
     {
         id: 22,
-        poster: "/public/RobotDreams.jpg",
+        poster: "/RobotDreams.jpg",
         title: "Robot Dreams",
         director: "Pablo Berger",
         starring: "",
@@ -755,7 +755,7 @@ const films = [
     },
     {
         id: 23,
-        poster: "/public/SPIDERMAN.jpg",
+        poster: "/SPIDERMAN.jpg",
         title: "Spider-man: Across the Spider-verse",
         director: "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
         starring: "Shameik Moore, Hailee Steinfeld, Brian Tyree Henry",
@@ -771,7 +771,7 @@ const films = [
     },
     {
         id: 24,
-        poster: "/public/ElConde.jpg",
+        poster: "/ElConde.jpg",
         title: "El Conde",
         director: "Pablo Larraín",
         starring: "Jaime Vadell, Gloria Münchmeyer, Alfredo Castro",
@@ -787,7 +787,7 @@ const films = [
     },
     {
         id: 25,
-        poster: "/public/BOBIWINE.jpeg",
+        poster: "/BOBIWINE.jpeg",
         title: "Bobi Wine: The People's President",
         director: "Christopher Sharp, Moses Bwayo",
         starring: "Bobi Win, Barbie Kyagulanyi, Robert Ssentamu",
@@ -803,7 +803,7 @@ const films = [
     },
     {
         id: 26,
-        poster: "/public/TheEternalMemory.jpg",
+        poster: "/TheEternalMemory.jpg",
         title: "The Eternal Memory",
         director: "Maite Alberdi",
         starring: "Augusto Góngora, Paulina Urrutia",
@@ -819,7 +819,7 @@ const films = [
     },
     {
         id: 27,
-        poster: "/public/FourDaughters.jpg",
+        poster: "/FourDaughters.jpg",
         title: "Four Daughters",
         director: "Kaouther Ben Hania",
         starring: "Hend Sabry, Olfa Hamrouni, Eya Chikahoui",
@@ -835,7 +835,7 @@ const films = [
     },
     {
         id: 28,
-        poster: "/public/ToKillaTiger.jpg",
+        poster: "/ToKillaTiger.jpg",
         title: "To Kill a Tiger",
         director: "Nisha Pahuja",
         starring: "",
@@ -851,7 +851,7 @@ const films = [
     },
     {
         id: 29,
-        poster: "/public/20DaysinMariupol.jpg",
+        poster: "/20DaysinMariupol.jpg",
         title: "20 Days in Mariupol",
         director: "Mstyslav Chernov",
         starring: "",
@@ -867,7 +867,7 @@ const films = [
     },
     {
         id: 30,
-        poster: "/public/THEABCS.jpg",
+        poster: "/THEABCS.jpg",
         title: "The ABCs of Book Banning",
         director: "Trish Adlesic, Nazenet Habtezghi, Sheila Nevins",
         starring: "",
@@ -883,7 +883,7 @@ const films = [
     },
     {
         id: 31,
-        poster: "/public/TheBarberofLittleRock.jpg",
+        poster: "/TheBarberofLittleRock.jpg",
         title: "The Barber of Little Rock",
         director: "John Hoffman, Christine Turner",
         starring: "",
@@ -899,7 +899,7 @@ const films = [
     },
     {
         id: 32,
-        poster: "/public/IslandinBetween.jpg",
+        poster: "/IslandinBetween.jpg",
         title: "Island in Between",
         director: "S. Leo Chiang",
         starring: "",
@@ -915,7 +915,7 @@ const films = [
     },
     {
         id: 33,
-        poster: "/public/TheLastRepairShop.jpg",
+        poster: "/TheLastRepairShop.jpg",
         title: "The Last Repair Shop",
         director: "Ben Proudfoot, Kris Bowers",
         starring: "Dana Atkinson, Paty Moreno, Duane Michaels",
@@ -931,7 +931,7 @@ const films = [
     },
     {
         id: 34,
-        poster: "/public/NAINAI.jpg",
+        poster: "/NAINAI.jpg",
         title: "Nǎi Nai & Wài Pó",
         director: "Sean Wang",
         starring: "Yi Yan Fuei, Zhang Li Hua",
@@ -947,7 +947,7 @@ const films = [
     },
     {
         id: 35,
-        poster: "/public/IoCapitano.jpg",
+        poster: "/IoCapitano.jpg",
         title: "Io Capitano",
         director: "Matteo Garrone",
         starring: "Seydou Sarr, Moustapha Fall",
@@ -963,7 +963,7 @@ const films = [
     },
     {
         id: 36,
-        poster: "/public/PerfectDays.jpg",
+        poster: "/PerfectDays.jpg",
         title: "Perfect Days",
         director: "Wim Wenders",
         starring: "Kōji Yakusho, Tokio Emoto, Arisa Nakano",
@@ -979,7 +979,7 @@ const films = [
     },
     {
         id: 37,
-        poster: "/public/TheTeachersLounge.jpg",
+        poster: "/TheTeachersLounge.jpg",
         title: "The Teachers' Lounge",
         director: "Ilker Çatak",
         starring: "Leonie Benesch, Michael Klammer, Rafael Stachowiak",
@@ -995,7 +995,7 @@ const films = [
     },
     {
         id: 38,
-        poster: "/public/Golda.jpg",
+        poster: "/Golda.jpg",
         title: "Golda",
         director: "Guy Nattiv",
         starring: "Helen Mirren, Camille Cottin, Liev Schreiber",
@@ -1011,7 +1011,7 @@ const films = [
     },
     {
         id: 39,
-        poster: "/public/INDIANAJONES.jpg",
+        poster: "/INDIANAJONES.jpg",
         title: "Indiana Jones and the Dial of Destiny",
         director: "James Mangold",
         starring: "Harrison Ford, Phoebe Waller-Bridge, Antonio Banderas",
@@ -1027,7 +1027,7 @@ const films = [
     },
     {
         id: 40,
-        poster: "/public/FlaminHot.jpg",
+        poster: "/FlaminHot.jpg",
         title: "Flamin' Hot",
         director: "Eva Longoria",
         starring: "Jesse Garcia, Annie Gonzalez, Dennis Haysbert",
@@ -1043,7 +1043,7 @@ const films = [
     },
     {
         id: 41,
-        poster: "/public/AmericanSymphony.jpg",
+        poster: "/AmericanSymphony.jpg",
         title: "American Symphony",
         director: "Matthew Heineman",
         starring: "Jon Batiste, Suleika Jaouad",
@@ -1059,7 +1059,7 @@ const films = [
     },
     {
         id: 42,
-        poster: "/public/LettertoaPig.jpg",
+        poster: "/LettertoaPig.jpg",
         title: "Letter to a Pig",
         director: "Tal Kantor",
         starring: "",
@@ -1075,7 +1075,7 @@ const films = [
     },
     {
         id: 43,
-        poster: "/public/NinteyFiveSenses.jpg",
+        poster: "/NinteyFiveSenses.jpg",
         title: "Nintey-Five Senses",
         director: "Jared Hess, Jerusha Hess",
         starring: "Tim Blake Nelson",
@@ -1091,7 +1091,7 @@ const films = [
     },
     {
         id: 44,
-        poster: "/public/OURUNIFORM.jpg",
+        poster: "/OURUNIFORM.jpg",
         title: "Our Uniform",
         director: "Yegane Moghaddam",
         starring: "",
@@ -1107,7 +1107,7 @@ const films = [
     },
     {
         id: 45,
-        poster: "/public/Pachyderme.jpg",
+        poster: "/Pachyderme.jpg",
         title: "Pachyderme",
         director: "Stephanie Clement",
         starring: "Christa Théret",
@@ -1123,7 +1123,7 @@ const films = [
     },
     {
         id: 46,
-        poster: "/public/WARISOVER.jpg",
+        poster: "/WARISOVER.jpg",
         title: "War is Over! Inspired by the Music of John & Yoko",
         director: "Dave Mullins",
         starring: "",
@@ -1139,7 +1139,7 @@ const films = [
     },
     {
         id: 47,
-        poster: "/public/TheAfter.jpg",
+        poster: "/TheAfter.jpg",
         title: "The After",
         director: "Misan Harriman",
         starring: "David Oyelowo, Jessica Plummer, Sule Rumi",
@@ -1155,7 +1155,7 @@ const films = [
     },
     {
         id: 48,
-        poster: "/public/Invincible.jpg",
+        poster: "/Invincible.jpg",
         title: "Invincible",
         director: "Vincent René-Lortie",
         starring: "Léokim Beaumier-Lépine, Isabelle Blais, Ralph Prosper",
@@ -1171,7 +1171,7 @@ const films = [
     },
     {
         id: 49,
-        poster: "/public/KnightofFortune.jpg",
+        poster: "/KnightofFortune.jpg",
         title: "Knight of Fortune",
         director: "Lasse Lyskjær Noer",
         starring: "Leif Andrée, Jens Jørn Spottag, Jesper Lohmann",
@@ -1187,7 +1187,7 @@ const films = [
     },
     {
         id: 50,
-        poster: "/public/RedWhiteandBlue.jpg",
+        poster: "/RedWhiteandBlue.jpg",
         title: "Red, White, and Blue",
         director: "Nazrin Choudhury",
         starring: "Brittany Snow, Juliet Donnefield, Redding Munsel",
@@ -1203,7 +1203,7 @@ const films = [
     },
     {
         id: 51,
-        poster: "/public/HENRYSUGAR.jpg",
+        poster: "/HENRYSUGAR.jpg",
         title: "The Wonderful Story of Henry Sugar",
         director: "Wes Anderson",
         starring: "Ralph Fiennes, Benedict Cumberbatch, Dev Patel",
@@ -1219,7 +1219,7 @@ const films = [
     },
     {
         id: 52,
-        poster: "/public/GUARDIANS.jpg",
+        poster: "/GUARDIANS.jpg",
         title: "Guardians of the Galaxy Vol. 3",
         director: "",
         starring: "",
@@ -1235,7 +1235,7 @@ const films = [
     },
     {
         id: 53,
-        poster: "/public/GODZILLA.jpg",
+        poster: "/GODZILLA.jpg",
         title: "Godzilla Minus One",
         director: "Takashi Yamazaki",
         starring: "Ryunosuke Kamiki, Minami Hamabe, Yuki Yamada",
