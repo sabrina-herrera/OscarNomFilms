@@ -62,6 +62,37 @@ p {
   font-weight: 300;
 }
 
+.film-card {
+  
+}
+
+.film-card-title-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  height: 260px;
+}
+
+.film-card-poster {
+  height: 200px;
+}
+
+.film-card-title {
+  
+}
+
+.expand-btn {
+  cursor: pointer;
+  align-self: center;
+}
+
+.film-card-detail-block {
+
+}
+
+
 @media screen and (min-width: 753px) {
   h1 {
     font-size: 4.5rem;
