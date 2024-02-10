@@ -25,7 +25,7 @@ function Film({ film }) {
                     className="expand-btn"
                     onClick={() => setOpen(!isOpen)}
                 >
-                    {isOpen ? <MinusIcon /> : <PlusIcon /> }
+                    {isOpen ? <MinusIcon className="expand-icon" /> : <PlusIcon  className="expand-icon" /> }
                 </div>
             </div>
             {isOpen && (
@@ -45,44 +45,7 @@ function Film({ film }) {
         </div>
     )
 
-    // the empty <> </> tags are called react "fragments". They're used because React expects components to only return
-    // a single parent element.
-    // Ex: A valid return object
-    // return (
-    //     <div>
-    //         <p>hello world</p>
-    //         <p>blue powerade is the best</p>
-    //         <div>
-    //             <div>
-    //                 <p>another div</p>
-    //             </div>
-    //         </div>
-    //     </div>
-    // )
-    //
-    // Ex: Invalid return object. These are 2 divs at the same "level", there is no parent, and therefore is an invalid return object
-    // return (
-        // <div>
-        //     {...}
-        // </div>
-        // <div>
-        //     {...}
-        // </div>
-    // )
-    //
-    // Ex: This is where you would use fragments
-    // return (
-    //     <>
-    //         <div>
-    //             {...}
-    //         </div>
-    //         <div>
-    //             {...}
-    //         </div>
-    //     </>
-    // )
-    
-
+ 
     // Previous code:
     // return (
     //     <>

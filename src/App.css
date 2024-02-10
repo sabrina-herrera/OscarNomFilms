@@ -2,18 +2,40 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  line-height: 1.5;
+  margin: 0px;
+  background-color: #F8EBB8;
+
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
 /*TEXT STYLING*/
 
 h1 {
   display: inline-block;
-  font-size: 2em;
+  font-size: 1.75em;
   line-height: 1.1;
   color: #BA9F5E
 }
 
+
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0;
+  line-height: 2.5rem;
 }
 
 h3 {
@@ -62,37 +84,6 @@ p {
   font-weight: 300;
 }
 
-.film-card {
-  
-}
-
-.film-card-title-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 50px;
-  height: 260px;
-}
-
-.film-card-poster {
-  height: 200px;
-}
-
-.film-card-title {
-  
-}
-
-.expand-btn {
-  cursor: pointer;
-  align-self: center;
-}
-
-.film-card-detail-block {
-
-}
-
-
 @media screen and (min-width: 753px) {
   h1 {
     font-size: 4.5rem;
@@ -120,28 +111,6 @@ p {
 
 /* FRAME STYLING */
 
-:root {
-  font-family: 'Alumni Sans Pinstripe', sans-serif;
-  line-height: 1.5;
-  margin: 0px;
-  /*color-scheme: light dark;
-  color: #909B68;*/
-  background-color: #F8EBB8;
-
-}
-
-#root {
-  width: 100%;
-  margin: 0;
-  text-align: center;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-}
-
 .background {
   background-color: #262522;
   width: 96dvw;
@@ -163,7 +132,7 @@ body {
 
 .oscar {
   width: auto;
-  height: 83px;
+  height: 75px;
 }
 
 .notes {
@@ -192,10 +161,6 @@ body {
     align-self: center;
   }
 
-  .spacer {
-    flex-grow: 1;
-  }
-
 }
 
 /* FILM STLYING */
@@ -204,26 +169,40 @@ body {
   background-color: #FAF9EE;
   margin: 10px 25px 20px;
   border-radius: 49px;
+  padding-top: 10px;
 }
 
-.filmhead {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 16px 30px;
+.film-card-title-row {
+  display: grid;
+  grid-template: 3fr 3fr 2fr / 1fr 7fr 1fr;
+  padding: 20px 30px 10px;
+  /*height: 260px;*/
 }
 
-button {
-  background-color: #FAF9EE;
+.film-card-poster {
+  grid-row: 1 / span 2;
+  grid-column: 2 / span 1;
+  height: 200px;
+  place-self: center;
+}
+
+.film-card-title {
+  grid-row: 3 / span 1;
+  grid-column: 2 / span 1;
+  place-self: center;
+}
+
+.expand-btn {
   cursor: pointer;
-  border: none;
-  font-family: 'Alumni Sans Pinstripe', sans-serif;
-  font-size: 3rem;
-  width: 25px;
+  align-self: center;
+  grid-row: 3 / span 1;
+  grid-column: 3 / span 1;
+  justify-self: end;
 }
 
-.spacer {
-  width: 25px;
+.expand-icon {
+  width: 20px;
+  padding-top: 5px;
 }
 
 hr {
@@ -233,10 +212,6 @@ hr {
   height: 3px;
 }
 
-.poster {
-  height: 150px;
-  margin: 30px auto 0px;
-}
 
 .filmdetails {
   margin: 0px 20px 30px;
@@ -248,26 +223,16 @@ hr {
 } 
 
 @media screen and (min-width: 753px) {
-  .poster {
-    height: 220px;
-  }
-
-  .spacer {
-    display: none;
-  }
-
-  .filmimagehead {
+  .film-card-title-row {
     display: flex;
-    margin: 30px 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
   }
 
-  .filmhead {
-    flex-grow: 1;
-    margin: 0;
-  }
 
   h2 {
-    flex-grow: 1;
     padding: 0 10px;
   }
 
@@ -275,10 +240,8 @@ hr {
     margin: 0px 50px;
   }
 
-  button {
-    font-size: 4.5rem;
+  .expand-btn {
     width: auto;
-    padding: 0px;
   }
 
   .filmdetails {

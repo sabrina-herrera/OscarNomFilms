@@ -556,7 +556,7 @@ const films = [
     {
         id: 12,
         poster: "/MISSIONIMPOSSIBLE.jpg",
-        title: "Mission: Impossible - Dead Reckoning Part One",
+        title: "Mission: Impossible - Dead Reckoning",
         director: "Christopher McQuarrie",
         starring: "Tom Cruise, Hayley Atwell, Ving Rhames",
         synopsis: "Ethan Hunt and the IMF team must track down a terrifying new weapon that threatens all of humanity if it falls into the wrong hands. With control of the future and the fate of the world at stake, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan is forced to consider that nothing can matter more than the mission -- not even the lives of those he cares about most.",
