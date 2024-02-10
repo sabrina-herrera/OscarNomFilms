@@ -76,6 +76,8 @@ label {
 #showwinner {
   cursor: pointer;
   margin: 10px;
+  accent-color: #F8EBB8;
+  outline: none;
 }
 
 
@@ -176,7 +178,6 @@ p {
   display: grid;
   grid-template: 3fr 3fr 2fr / 1fr 7fr 1fr;
   padding: 20px 30px 10px;
-  /*height: 260px;*/
 }
 
 .film-card-poster {
