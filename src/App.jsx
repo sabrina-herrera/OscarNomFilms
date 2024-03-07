@@ -15,12 +15,12 @@ function App() {
   return (
           <div className="background">
             <div className='hero'>
-              <img src={oscar} className='oscar' ></img>
+              <img src={oscar} className='oscar' alt='oscar statue' ></img>
               <h1>OSCAR NOMINATED FILMS</h1>
-              <img src={oscar} className='oscar' ></img>
+              <img src={oscar} className='oscar' alt='oscar statue' ></img>
             </div>
             <div className='notes'>
-              <h3>Awards won are shown in bold</h3>
+              <p id="award-note">Awards won are shown in bold</p>
               <div id='spacer'></div>
               <label>
                 <input name="showwinner" id="showwinner" type ="checkbox" onChange = {handleChange}/>

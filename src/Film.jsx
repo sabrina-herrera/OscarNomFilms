@@ -9,12 +9,13 @@ function Film({ film }) {
     return (
         <div className="film-card">
             <div className="film-card-title-row">
-                <img src={film.poster} className="film-card-poster"></img>
+                <img src={film.poster} className="film-card-poster" alt={film.title}></img>
                 <div className="film-card-title">
                     <h2>{film.title}</h2>
                 </div>
                 <button
                     className="expand-btn"
+                    aria-label="expand film details"
                     onClick={() => setOpen(!isOpen)}
                 >
                     {isOpen ? <MinusIcon className="expand-icon" /> : <PlusIcon  className="expand-icon" /> }
@@ -26,7 +27,7 @@ function Film({ film }) {
                         <p><span className="bold">Director: </span> {film.director}</p>
                         {film.starring && (<p><span className="bold">Starring: </span> {film.starring}</p>)}
                         <p><span className="bold">Synopsis: </span>{film.synopsis}</p>
-                        <h4><span className="bold">Award Nominations:</span></h4>
+                        <h3><span className="bold">Award Nominations:</span></h3>
                         {film.awards.map((award) => (
                             < Awards key={award.id} award={award} />
                         ))}
