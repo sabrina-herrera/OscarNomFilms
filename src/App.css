@@ -199,6 +199,8 @@ p {
   grid-row: 3 / span 1;
   grid-column: 3 / span 1;
   justify-self: end;
+  border: none;
+  background-color: #FAF9EE;
 }
 
 .expand-icon {

@@ -13,12 +13,12 @@ function Film({ film }) {
                 <div className="film-card-title">
                     <h2>{film.title}</h2>
                 </div>
-                <div
+                <button
                     className="expand-btn"
                     onClick={() => setOpen(!isOpen)}
                 >
                     {isOpen ? <MinusIcon className="expand-icon" /> : <PlusIcon  className="expand-icon" /> }
-                </div>
+                </button>
             </div>
             {isOpen && (
                 <div className="film-card-detail-block">
