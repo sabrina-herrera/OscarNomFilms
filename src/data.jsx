@@ -11,13 +11,13 @@ const films = [
                 id: 101,
                 awardName: "ACTOR IN A LEADING ROLE",
                 awardedTo: "Cillian Murphy",
-                winner: false
+                winner: true
             },
             {
                 id: 102,
                 awardName: "ACTOR IN A SUPPORTING ROLE",
                 awardedTo: "Robert Downey Jr.",
-                winner: false
+                winner: true
             },
             {
                 id: 103,
@@ -29,7 +29,7 @@ const films = [
                 id: 104,
                 awardName: "CINEMATOGRAPHY",
                 awardedTo: "Hoyte van Hoytema",
-                winner: false
+                winner: true
             },
             {
                 id: 105,
@@ -41,13 +41,13 @@ const films = [
                 id: 106,
                 awardName: "DIRECTING",
                 awardedTo: "Christopher Nolan",
-                winner: false
+                winner: true
             },
             {
                 id: 107,
                 awardName: "FILM EDITING",
                 awardedTo: "Jennifer Lame",
-                winner: false
+                winner: true
             },
             {
                 id: 108,
@@ -59,13 +59,13 @@ const films = [
                 id: 109,
                 awardName: "MUSIC (ORIGINAL SCORE)",
                 awardedTo: "Ludwig Göransson",
-                winner: false
+                winner: true
             },
             {
                 id: 110,
                 awardName: "BEST PICTURE",
                 awardedTo: "Emma Thomas, Charles Roven and Christopher Nolan, Producers",
-                winner: false
+                winner: true
             },
             {
                 id: 111,
@@ -105,7 +105,7 @@ const films = [
                 id: 202,
                 awardName: "ACTRESS IN A LEADING ROLE",
                 awardedTo: "Emma Stone",
-                winner: false
+                winner: true
             },
             {
                 id: 203,
@@ -117,7 +117,7 @@ const films = [
                 id: 204,
                 awardName: "COSTUME DESIGN",
                 awardedTo: "Holly Waddington",
-                winner: false
+                winner: true
             },
             {
                 id: 205,
@@ -135,7 +135,7 @@ const films = [
                 id: 207,
                 awardName: "MAKEUP AND HAIRSTYLING",
                 awardedTo: "Nadia Stacey, Mark Coulier and Josh Weston",
-                winner: false
+                winner: true
             },
             {
                 id: 208,
@@ -153,7 +153,7 @@ const films = [
                 id: 210,
                 awardName: "PRODUCTION DESIGN",
                 awardedTo: "Production Design: James Price and Shona Heath; Set Decoration: Zsuzsa Mihalek",
-                winner: false
+                winner: true
             },
             {
                 id: 211,
@@ -263,7 +263,7 @@ const films = [
                 id: 404,
                 awardName: "MUSIC (ORIGINAL SONG)",
                 awardedTo: "'What Was I Made For?' Music and Lyric by Billie Eilish and Finneas O'Connell",
-                winner: false
+                winner: true
             },
             {
                 id: 405,
@@ -379,7 +379,7 @@ const films = [
                 id: 605,
                 awardName: "WRITING (ADAPTED SCREENPLAY)",
                 awardedTo: "Written for the screen by Cord Jefferson",
-                winner: false
+                winner: true
             }
         ]
     },
@@ -419,7 +419,7 @@ const films = [
                 id: 705,
                 awardName: "WRITING (ORIGINAL SCREENPLAY)",
                 awardedTo: "Screenplay - Justine Triet and Arthur Harari",
-                winner: false
+                winner: true
             }
         ]
     },
@@ -441,7 +441,7 @@ const films = [
                 id: 802,
                 awardName: "ACTRESS IN A SUPPORTING ROLE",
                 awardedTo: "Da'vine Joy Randolph",
-                winner: false
+                winner: true
             },
             {
                 id: 803,
@@ -481,7 +481,7 @@ const films = [
                 id: 902,
                 awardName: "INTERNATIONAL FEATURE FILM",
                 awardedTo: "United Kingdom",
-                winner: false
+                winner: true
             },
             {
                 id: 903,
@@ -493,7 +493,7 @@ const films = [
                 id: 904,
                 awardName: "SOUND",
                 awardedTo: "Tarn Willers and Johnnie Burn",
-                winner: false
+                winner: true
             },
             {
                 id: 905,
@@ -685,7 +685,7 @@ const films = [
                 id: 1801,
                 awardName: "ANIMATED FEATURE FILM",
                 awardedTo: "Hayao Miyazaki and Toshio Suzuki",
-                winner: false
+                winner: true
             }
         ]
     },
@@ -861,7 +861,7 @@ const films = [
                 id: 2901,
                 awardName: "DOCUMENTARY FEATURE FILM",
                 awardedTo: "Mstyslav Chernov, Michelle Mizner and Raney Aronson-Rath",
-                winner: false
+                winner: true
             }
         ]
     },
@@ -925,7 +925,7 @@ const films = [
                 id: 3301,
                 awardName: "DOCUMENTARY SHORT FILM",
                 awardedTo: "Ben Proudfoot and Kris Bowers",
-                winner: false
+                winner: true
             }
         ]
     },
@@ -1133,7 +1133,7 @@ const films = [
                 id: 4601,
                 awardName: "ANIMATED SHORT FILM",
                 awardedTo: "Dave Mullins and Brad Booker",
-                winner: false
+                winner: true
             }
         ]
     },
@@ -1213,7 +1213,7 @@ const films = [
                 id: 5101,
                 awardName: "LIVE ACTION SHORT FILM",
                 awardedTo: "Wes Anderson and Steven Rales",
-                winner: false
+                winner: true
             }
         ]
     },
@@ -1245,7 +1245,7 @@ const films = [
                 id: 5301,
                 awardName: "VISUAL EFFECTS",
                 awardedTo: "Takashi Yamazaki, Kiyoko Shibuya, Masaki Takahashi and Tatsuji Nojima",
-                winner: false
+                winner: true
             }
         ]
     }
